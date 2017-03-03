@@ -1,0 +1,88 @@
+html{
+	font-size: 62.5%;
+}
+body,html{
+	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+header{
+	text-align: center;
+	padding: 5rem;
+}
+header .logo{
+	display: inline-block;
+	height: 10rem;
+	line-height: 10rem;
+	font-size: 5.4rem;
+	font-weight: 600;
+	color: #000;
+	text-decoration: none;
+}
+nav ul{
+	padding-top: 1.5rem;
+	display: flex;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+nav li{
+	position: relative;
+	padding: 1.8rem;
+}
+nav a{
+	color: #000;
+	font-size: 1.8rem;
+}
+nav .current-a:after{
+	display: block;
+	content: '';
+	position: absolute;
+	top: 1.2rem;
+	right: 1.2rem;
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #f03861;
+	border-radius: 0.2rem;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+footer{
+	padding: 12rem 0 10rem 0;
+}
+footer .share{
+	box-sizing: content-box;
+	padding-top: 2rem;
+	height: 3.4rem;
+	max-width: 64rem;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.share a{
+	display: block;
+	width: 3.4rem;
+	height: 3.4rem;
+	border-radius: 3.4rem;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 3.4rem;
+	margin: 0 1rem;
+	color: #fff;
+}
+.share .wechat{
+	background: #62b900;
+	/*color: #62b900;*/
+}
+.share .weibo{
+	background: #da251c;;
+	/*color: #da251c;*/
+}
+.share .twitter{
+	background: #1da1f3;;
+	/*color: #1da1f3;*/
+}
+.share .facebook{
+	background: #1652b6;;
+	/*color: #1652b6;*/
+}
