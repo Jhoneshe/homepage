@@ -14,20 +14,13 @@
 	line-height: 2.4rem;
 	padding-bottom: 9rem;
 }
-.more-info{
-	text-align: center;
-	padding: 0 20rem;
-	line-height: 40rem;
-	font-size: 6rem;
-	color: #fff;
-}
 .detail-intro{
 	padding-top: 4rem;
 	background: #fff;
 }
 .detail-item{
 	padding: 2rem;
-	transition: all 0.5s;
+	transition: all 0.3s;
 	cursor: pointer;
 }
 .detail-item i{

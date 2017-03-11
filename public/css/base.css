@@ -14,35 +14,44 @@ body,html{
 	background-size: cover;
 	z-index: -1;
 }
+.middle-title{
+	text-align: center;
+	padding: 18rem 0;
+	font-size: 6rem;
+	color: #fff;
+	font-weight: normal;
+}
 header{
 	text-align: center;
 	padding: 5rem;
 	background: #fff;
 }
 header .logo{
-	display: inline-block;
+	display: block;
 	position: relative;
+	max-width: 37.6rem;
 	height: 10rem;
+	margin: 0 auto;
 	padding: 1rem 2rem;
 	line-height: 10rem;
+	text-align: center;
 	font-size: 5.4rem;
 	font-weight: 600;
 	color: #000;
 	text-decoration: none;
 }
-header .logo:after{
+/*header .logo:after{
 	display: block;
 	content: '';
 	position: absolute;
 	bottom: 2.4rem;
-	right: 1rem;
+	right: 1.4rem;
 	width: 1rem;
 	height: 1rem;
 	background: #f03861;
-}
+}*/
 nav ul{
 	padding-top: 1.5rem;
-	display: flex;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
@@ -115,4 +124,23 @@ footer .copy-right{
 	font-size: 1.6rem;
 	color: #666;
 	padding-bottom: 1rem;
+}
+@media only screen and (max-width: 640px) {
+	nav ul{
+		display: block;
+	}
+	nav li{
+		width: 100%;
+	}
+	nav .current-a:after{
+	display: block;
+	content: '';
+	position: absolute;
+	top: 1.2rem;
+	right: 6rem;
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #f03861;
+	border-radius: 0.2rem;
+}
 }

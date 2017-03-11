@@ -1,0 +1,43 @@
+.container{
+	background: #fff;
+}
+.team-infor{
+	padding: 4rem 0;
+	background: #fff;
+}
+.quote{
+	padding: 0.5rem 2rem;
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+	text-align: center;
+}
+.quote strong{
+	font-size: 2.4rem;
+	line-height: 3rem;
+	font-weight: bold;
+}
+.team-detail{
+	margin: 0 auto;
+	padding: 4rem 0;
+	max-width: 76rem;
+}
+.team-detail-item{
+	padding: 1rem 2rem;
+}
+.team-detail-item i{
+	font-size: 3.6rem;
+	vertical-align: top;
+	color: lightblue;
+}
+.team-detail-item h3{
+	vertical-align: top;
+	line-height: 3rem;
+	font-size: 3rem;
+	font-weight: bold;
+	padding-left: 4rem;
+}
+.team-detail-item p{
+	padding: 2rem 4rem;
+	font-size: 1.6rem;
+	line-height: 2.8rem;
+}
