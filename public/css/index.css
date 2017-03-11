@@ -16,8 +16,30 @@
 }
 .more-info{
 	text-align: center;
-	height: 42rem;
-	line-height: 42rem;
-	font-size: 8rem;
+	padding: 0 20rem;
+	line-height: 40rem;
+	font-size: 6rem;
 	color: #fff;
+}
+.detail-intro{
+	padding-top: 4rem;
+	background: #fff;
+}
+.detail-item{
+	padding: 2rem;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+.detail-item i{
+	font-size: 3rem;
+	color: brown;
+}
+.detail-item p{
+	font-size: 1.8rem;
+	line-height: 2rem;
+	padding-left: 4rem;
+}
+
+.detail-item:hover{
+	box-shadow: 0.3rem 0.3rem 1rem rgba(0,0,0,0.2);
 }
