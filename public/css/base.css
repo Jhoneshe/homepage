@@ -125,6 +125,25 @@ footer .copy-right{
 	color: #666;
 	padding-bottom: 1rem;
 }
+footer .other-info{
+	text-align: center;
+}
+.other-info span{
+	display: inline-block;
+	margin-top: 4rem;
+	color: #666;
+	cursor: pointer;
+}
+.modal-body{
+	line-height: 1.8rem;
+}
+.modal-body h5{
+	padding: 1rem 0;
+}
+.modal-body h6{
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+}
 @media only screen and (max-width: 640px) {
 	nav ul{
 		display: block;
@@ -133,14 +152,14 @@ footer .copy-right{
 		width: 100%;
 	}
 	nav .current-a:after{
-	display: block;
-	content: '';
-	position: absolute;
-	top: 1.2rem;
-	right: 6rem;
-	width: 0.6rem;
-	height: 0.6rem;
-	background: #f03861;
-	border-radius: 0.2rem;
-}
+		display: block;
+		content: '';
+		position: absolute;
+		top: 1.2rem;
+		right: 6rem;
+		width: 0.6rem;
+		height: 0.6rem;
+		background: #f03861;
+		border-radius: 0.2rem;
+	}
 }

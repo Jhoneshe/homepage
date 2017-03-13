@@ -1,0 +1,14 @@
+.product-pic-list{
+	padding: 6rem 0;
+	background: #fff;
+}
+.product-pic-list .row{
+	/*padding: 2rem;*/
+}
+.product-pic-list .col-md-4{
+	padding: 2rem;
+	position: relative;
+}
+.product-pic-list img{
+	box-shadow: 0 0 2rem rgba(0,0,0,0.2);
+}

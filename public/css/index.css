@@ -28,11 +28,16 @@
 	color: brown;
 }
 .detail-item p{
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	line-height: 2rem;
 	padding-left: 4rem;
 }
 
 .detail-item:hover{
 	box-shadow: 0.3rem 0.3rem 1rem rgba(0,0,0,0.2);
+}
+
+.container{
+	max-width: 76rem;
+	margin: 0 auto;
 }
