@@ -5,15 +5,24 @@
 .product-pic-list .row{
 	/*padding: 2rem;*/
 }
-.product-pic-list .col-md-4{
-	padding: 2rem;
-	position: relative;
+.product-pic-list .col-md-6{
+	text-align: center;
+	padding: 0 4rem;
 }
-.product-pic-list img{
-	box-shadow: 0 0 2rem rgba(0,0,0,0.2);
-	opacity: 0.8;
+.product-pic-list .col-md-6 p{
+	padding: 8rem 0;
+	transition: all 0.3s;
+	font-size: 4rem;
+	font-weight: bold;
 	cursor: pointer;
+	border: 0.2rem solid lightblue;
+	border-radius: 1rem;
 }
-.product-pic-list img:hover{
-	opacity: 1;
+.product-pic-list .col-md-6 p:hover{
+	box-shadow: 0 0.5rem 2rem rgba(0,0,0,0.2);
+	background: lightblue;
+	color: #fff;
+}
+.product-pic-list .sdk-info{
+	padding: 2rem 4rem;
 }
