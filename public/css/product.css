@@ -26,3 +26,6 @@
 .product-pic-list .sdk-info{
 	padding: 2rem 4rem;
 }
+.sdk-info p,.sdk-info li{
+	line-height: 2.8rem;
+}
